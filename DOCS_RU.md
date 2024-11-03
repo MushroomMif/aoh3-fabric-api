@@ -1,4 +1,4 @@
-[🇺🇸 English](https://github.com/MushroomMif/aoh3-fabric-mod/blob/master/DOCS.md)
+[🇺🇸 English](https://github.com/MushroomMif/aoh3-fabric-api/blob/master/DOCS.md)
 -----
 # Загрузчик ресурсов
 Вы можете добавлять файлы в папки `audio`, `game`, `gfx`, `map` и `ui`

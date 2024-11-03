@@ -1,4 +1,4 @@
-[🇺🇸 English](https://github.com/MushroomMif/aoh3-fabric-mod/blob/master/README.md)
+[🇺🇸 English](https://github.com/MushroomMif/aoh3-fabric-api/blob/master/README.md)
 -----
 AOH3 Fabric Api
 ====
