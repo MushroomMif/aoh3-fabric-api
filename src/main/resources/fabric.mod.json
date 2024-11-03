@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "fabric-api",
+  "version": "0.1",
+  "name": "AOH3 Fabric API",
+  "description": "Essential features for mods and users, and common APIs for AOH3 Fabric Loader",
+  "authors": [
+    "MushroomMif"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.mushroommif.fabricapi.FabricApiMod"
+    ]
+  },
+  "mixins": [
+    "fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "0.16.7",
+    "aoh3": "1.2",
+    "java": ">=8"
+  }
+}

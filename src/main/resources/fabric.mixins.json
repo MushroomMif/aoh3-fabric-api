@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "com.github.mushroommif.fabricapi.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MainMenu$8Mixin",
+    "SteamManagerMixin",
+    "event.InitGameMixin",
+    "menu.Editor$6Mixin",
+    "registry.Map$ConfigAccessor",
+    "registry.Map$MapsAccessor",
+    "registry.MapMixin",
+    "resourceloader.AA_GameMixin",
+    "resourceloader.FileHandleMixin",
+    "resourceloader.FileManagerMixin",
+    "resourceloader.FormableCivManagerMixin",
+    "resourceloader.I18NBundleAccessor",
+    "resourceloader.ImageManagerMixin",
+    "resourceloader.Init_SelectLanguage$1Mixin",
+    "resourceloader.LanguageManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
