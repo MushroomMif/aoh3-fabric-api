@@ -105,7 +105,7 @@ public abstract class InitGameMixin {
             return;
         }
 
-        this.setLoadText("Loading Mod's Custom Files");
+        this.setLoadText("Loading Mods Custom Files");
         fabricApi$customModFilesLoadingTextSet = true;
         ci.cancel();
     }
