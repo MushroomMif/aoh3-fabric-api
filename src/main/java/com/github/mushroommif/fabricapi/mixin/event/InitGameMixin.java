@@ -23,6 +23,7 @@ public abstract class InitGameMixin {
 
     @Shadow public static int iStepID;
 
+    // Invoking listeners of this event in this strange way because we need second draw method call to apply custom load text
     @Inject(
             method = "initGame",
             at = @At(

@@ -16,6 +16,7 @@ You can also create your own events in your mod using this system.
 Here is the list of all events at the moment:
 - `GameLoadingEvents.ON_LOADED`
 - `FileLoadingEvents.IMAGES`
+- `FileLoadingEvents.END`
 - `ResourceLoaderEvents.SHOULD_LOAD_MOD_RESOURCES`
 - `ResourceLoaderEvents.AFTER_RESOURCES_STORE`
 
