@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.mixin.resourceloader;
 
-import aoc.kingdoms.lukasz.jakowski.LanguageManager;
+import aoh.kingdoms.history.mainGame.LanguageManager;
 import com.github.mushroommif.fabricapi.FabricApiMod;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Unique;

@@ -6,13 +6,13 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-@Mixin(targets = "aoc.kingdoms.lukasz.menus.Init_SelectLanguage$1")
+@Mixin(targets = "aoh.kingdoms.history.menus.Init_SelectLanguage$1")
 public class Init_SelectLanguage$1Mixin {
     @Inject(
             method = "actionElement",
             at = @At(
                     value = "NEW",
-                    target = "(Ljava/lang/String;)Laoc/kingdoms/lukasz/jakowski/LanguageManager;"
+                    target = "(Ljava/lang/String;)Laoh/kingdoms/history/mainGame/LanguageManager;"
             )
     )
     private void loadTranslationsOnFirstLanguageSelect(CallbackInfo ci) {

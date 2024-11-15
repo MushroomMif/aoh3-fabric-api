@@ -8,9 +8,9 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(targets = {
-        "aoc.kingdoms.lukasz.jakowski.FileManager$1",
-        "aoc.kingdoms.lukasz.jakowski.FileManager$2",
-        "aoc.kingdoms.lukasz.jakowski.FileManager$3"
+        "aoh.kingdoms.history.mainGame.FileManager$1",
+        "aoh.kingdoms.history.mainGame.FileManager$2",
+        "aoh.kingdoms.history.mainGame.FileManager$3"
 })
 public class FileManagerMixin {
     @Inject(method = "loadFile", at = @At("HEAD"), cancellable = true)

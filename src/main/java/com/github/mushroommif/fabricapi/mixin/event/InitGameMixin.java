@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.mixin.event;
 
-import aoc.kingdoms.lukasz.menus.InitGame;
+import aoh.kingdoms.history.menus.InitGame;
 import com.github.mushroommif.fabricapi.event.FileLoadingEvents;
 import com.github.mushroommif.fabricapi.event.GameLoadingEvents;
 import org.spongepowered.asm.mixin.Mixin;
@@ -28,7 +28,7 @@ public abstract class InitGameMixin {
             method = "initGame",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/menus/InitGame;loadImages_8()V",
+                    target = "Laoh/kingdoms/history/menus/InitGame;loadImages_8()V",
                     shift = At.Shift.BEFORE
             ),
             cancellable = true
@@ -48,7 +48,7 @@ public abstract class InitGameMixin {
             method = "initGame",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/menus/InitGame;loadSparks()V",
+                    target = "Laoh/kingdoms/history/menus/InitGame;loadSparks()V",
                     shift = At.Shift.AFTER
             ),
             cancellable = true
@@ -67,7 +67,7 @@ public abstract class InitGameMixin {
             method = "initGame",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/menu/MenuManager;setViewID(Laoc/kingdoms/lukasz/menu/View;)V",
+                    target = "Laoh/kingdoms/history/menu/MenuManager;setViewID(Laoh/kingdoms/history/menu/View;)V",
                     shift = At.Shift.BEFORE
             )
     )
@@ -79,7 +79,7 @@ public abstract class InitGameMixin {
             method = "initGame",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/map/map/MapScale;setEnableScaling(Z)V",
+                    target = "Laoh/kingdoms/history/map/map/MapScale;setEnableScaling(Z)V",
                     shift = At.Shift.BEFORE
             )
     )
@@ -95,7 +95,7 @@ public abstract class InitGameMixin {
             method = "initGame",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/map/map/MapScale;setEnableScaling(Z)V",
+                    target = "Laoh/kingdoms/history/map/map/MapScale;setEnableScaling(Z)V",
                     shift = At.Shift.BEFORE
             ),
             cancellable = true

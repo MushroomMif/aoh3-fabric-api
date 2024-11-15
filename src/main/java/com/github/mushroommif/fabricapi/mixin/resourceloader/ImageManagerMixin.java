@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.mixin.resourceloader;
 
-import aoc.kingdoms.lukasz.textures.ImageManager;
+import aoh.kingdoms.history.textures.ImageManager;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.graphics.Pixmap;
 import com.badlogic.gdx.graphics.Texture;
@@ -16,7 +16,7 @@ public class ImageManagerMixin {
             method = "loadTexture(Ljava/lang/String;Lcom/badlogic/gdx/graphics/Pixmap$Format;)Lcom/badlogic/gdx/graphics/Texture;",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/jakowski/CFG;isDesktop()Z"
+                    target = "Laoh/kingdoms/history/mainGame/CFG;isDesktop()Z"
             ),
             cancellable = true
     )

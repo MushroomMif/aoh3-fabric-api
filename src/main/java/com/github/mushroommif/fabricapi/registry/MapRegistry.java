@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.registry;
 
-import aoc.kingdoms.lukasz.map.map.Map;
+import aoh.kingdoms.history.map.map.Map;
 import com.github.mushroommif.fabricapi.internal.InternalUtils;
 import com.github.mushroommif.fabricapi.mixin.registry.Map$MapsAccessor;
 

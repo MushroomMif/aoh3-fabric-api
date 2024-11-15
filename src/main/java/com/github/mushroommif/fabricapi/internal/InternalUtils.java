@@ -1,7 +1,7 @@
 package com.github.mushroommif.fabricapi.internal;
 
-import aoc.kingdoms.lukasz.jakowski.Steam.SteamManager;
-import aoc.kingdoms.lukasz.map.map.Map;
+import aoh.kingdoms.history.mainGame.Steam.SteamManager;
+import aoh.kingdoms.history.map.map.Map;
 import com.github.mushroommif.fabricapi.mixin.registry.Map$MapsAccessor;
 import net.fabricmc.loader.api.FabricLoader;
 
