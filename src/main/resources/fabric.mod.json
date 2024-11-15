@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "fabric-api",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "name": "AOH3 Fabric API",
   "description": "Essential features for mods and users, and common APIs for AOH3 Fabric Loader",
   "authors": [
