@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.mixin.resourceloader;
 
-import aoc.kingdoms.lukasz.map.FormableCivManager;
+import aoh.kingdoms.history.map.FormableCivManager;
 import com.badlogic.gdx.Files;
 import com.badlogic.gdx.files.FileHandle;
 import com.github.mushroommif.fabricapi.FabricApiMod;
@@ -18,7 +18,7 @@ public class FormableCivManagerMixin {
             method = "buildFormableCivilizations",
             at = @At(
                     value = "FIELD",
-                    target = "Laoc/kingdoms/lukasz/jakowski/Steam/SteamManager;modsFoldersSize:I"
+                    target = "Laoh/kingdoms/history/mainGame/Steam/SteamManager;modsFoldersSize:I"
             )
     )
     private static int returnCustomModFolderCount(Operation<Integer> original) {
@@ -29,7 +29,7 @@ public class FormableCivManagerMixin {
             method = "buildFormableCivilizations",
             at = @At(
                     value = "FIELD",
-                    target = "Laoc/kingdoms/lukasz/jakowski/Steam/SteamManager;modsFolders:Ljava/util/List;"
+                    target = "Laoh/kingdoms/history/mainGame/Steam/SteamManager;modsFolders:Ljava/util/List;"
             )
     )
     private static List<String> returnCustomListWithMark(Operation<List<String>> original) {

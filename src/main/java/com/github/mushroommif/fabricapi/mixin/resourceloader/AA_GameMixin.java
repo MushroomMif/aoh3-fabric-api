@@ -1,6 +1,6 @@
 package com.github.mushroommif.fabricapi.mixin.resourceloader;
 
-import aoc.kingdoms.lukasz.jakowski.AA_Game;
+import aoh.kingdoms.history.mainGame.AA_Game;
 import com.github.mushroommif.fabricapi.FabricApiMod;
 import com.github.mushroommif.fabricapi.internal.InternalUtils;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,7 +14,7 @@ public class AA_GameMixin {
             method = "create",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/jakowski/Game;loadSettings()V",
+                    target = "Laoh/kingdoms/history/mainGame/Game;loadSettings()V",
                     shift = At.Shift.AFTER
             )
     )
@@ -26,7 +26,7 @@ public class AA_GameMixin {
             method = "create",
             at = @At(
                     value = "INVOKE",
-                    target = "Laoc/kingdoms/lukasz/jakowski/Game;loadLanguage()V",
+                    target = "Laoh/kingdoms/history/mainGame/Game;loadLanguage()V",
                     shift = At.Shift.BEFORE
             )
     )

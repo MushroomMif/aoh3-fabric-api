@@ -1,8 +1,8 @@
 package com.github.mushroommif.fabricapi.internal;
 
-import aoc.kingdoms.lukasz.events.EventsManager;
-import aoc.kingdoms.lukasz.jakowski.CFG;
-import aoc.kingdoms.lukasz.jakowski.Game;
+import aoh.kingdoms.history.events.EventsManager;
+import aoh.kingdoms.history.mainGame.CFG;
+import aoh.kingdoms.history.mainGame.Game;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.files.FileHandle;
 import com.badlogic.gdx.utils.I18NBundle;

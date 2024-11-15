@@ -3,7 +3,7 @@ package com.github.mushroommif.fabricapi.event;
 public final class FileLoadingEvents {
 
     /**
-     * This is the proper place to load your images into {@link aoc.kingdoms.lukasz.textures.ImageManager}
+     * This is the proper place to load your images into {@link aoh.kingdoms.history.textures.ImageManager}
      */
     public static final FabricEvent<Images> IMAGES = FabricEvent.create(listeners -> () -> {
         for (Images listener : listeners) {

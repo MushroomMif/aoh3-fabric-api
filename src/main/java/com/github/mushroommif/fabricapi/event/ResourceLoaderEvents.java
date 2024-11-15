@@ -67,7 +67,7 @@ public final class ResourceLoaderEvents {
          * @param resourceDataSupplier Function to get data of the resource file. If loading of the data
          *                             is failed for some reason, it will log the error to game console
          *                             and return an empty array
-         * @return Is file should be stored and provided to the {@link aoc.kingdoms.lukasz.jakowski.FileManager}
+         * @return Is file should be stored and provided to the {@link aoh.kingdoms.history.mainGame.FileManager}
          * on request or not
          */
         boolean onStoreResource(ModContainer provider, String resourcePath, Supplier<byte[]> resourceDataSupplier);
