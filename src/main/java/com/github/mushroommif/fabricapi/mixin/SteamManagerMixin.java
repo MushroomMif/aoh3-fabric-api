@@ -18,7 +18,8 @@ public class SteamManagerMixin {
             method = "loadSubscribedItems",
             at = @At(
                     value = "INVOKE",
-                    target = "Ljava/util/List;add(Ljava/lang/Object;)Z"
+                    target = "Ljava/util/List;add(Ljava/lang/Object;)Z",
+                    ordinal = 1
             )
     )
     private static <E> boolean dontAddJarMods(List<E> instance, E e, Operation<Boolean> original) {
