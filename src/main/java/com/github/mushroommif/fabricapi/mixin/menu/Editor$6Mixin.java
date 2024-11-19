@@ -15,7 +15,7 @@ public class Editor$6Mixin {
             index = 0
     )
     private String changeButtonName(String key) {
-        return "fabric-api.ManageVanillaMods";
+        return "Manage Vanilla Mods";
     }
 
     @ModifyArg(
@@ -27,6 +27,6 @@ public class Editor$6Mixin {
             index = 0
     )
     private String changeButtonNameInHover(String key) {
-        return "fabric-api.ManageVanillaMods";
+        return "Manage Vanilla Mods";
     }
 }
